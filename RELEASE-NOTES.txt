@@ -1,0 +1,35 @@
+RELEASE-NOTES:
+The code version available in this folder is similar to the codebase available as MMITSS_AZ_FIELD in OSADP which was developed by University of Arizona.
+
+Minor revisions were made to the code for the AMS Project and these changes are described below:
+1. Added capability to introduce communication latency to the data between BSM Generator and BSM Listener.
+
+License information
+-------------------
+Licensed under the Apache License, Version 2.0 (the "License"); you may not use this
+file except in compliance with the License.
+You may obtain a copy of the License at http://www.apache.org/licenses/LICENSE-2.0
+Unless required by applicable law or agreed to in writing, software distributed under
+the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied. See the License for the specific language governing
+permissions and limitations under the License.
+
+System Requirements
+-------------------------
+2x machines with 8 GB RAM min.
+2x machines with 2.5 GHz processing power
+1x installed with Windows 7 OS and 1x installed with Ubuntu Linux 14+
+Windows installation:
+ - Vissim 6 or 7 Software with Econolite License
+ - Microsoft Visual Studio 2012 +
+ - Static IP address.
+Linux installation:
+ - Docker.io installed according to the manual in "Controller Applications" format.
+ - Static IP address within same subnet as windows.
+ - Docker instances should be bridged to Linux IP.
+
+Documentation
+-------------
+Specific instructions on configuring simulation machine and controller applications are provided in the respective folders.
+
+

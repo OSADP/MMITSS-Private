@@ -1,0 +1,49 @@
+﻿Build started 5/12/2015 12:30:32 PM.
+     1>Project "F:\Yiheng\MMITSS\El Camino Network Simulation\BSM_Distributor\BSM_Listener\BSM_Listener.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt BSM_Listener.cpp
+         BSM_Listener.cpp
+     1>f:\yiheng\mmitss\el camino network simulation\bsm_distributor\bsm_listener\bsm_listener.cpp(117): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(311) : see declaration of 'sscanf'
+     1>f:\yiheng\mmitss\el camino network simulation\bsm_distributor\bsm_listener\bsm_listener.cpp(120): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(311) : see declaration of 'sscanf'
+     1>f:\yiheng\mmitss\el camino network simulation\bsm_distributor\bsm_listener\bsm_listener.cpp(126): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(311) : see declaration of 'sscanf'
+     1>f:\yiheng\mmitss\el camino network simulation\bsm_distributor\bsm_listener\bsm_listener.cpp(273): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(357) : see declaration of 'sprintf'
+     1>f:\yiheng\mmitss\el camino network simulation\bsm_distributor\bsm_listener\bsm_listener.cpp(339): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(357) : see declaration of 'sprintf'
+     1>f:\yiheng\mmitss\el camino network simulation\bsm_distributor\bsm_listener\bsm_listener.cpp(354): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(218) : see declaration of 'fopen'
+     1>f:\yiheng\mmitss\el camino network simulation\bsm_distributor\bsm_listener\linkedlist.h(192): warning C4172: returning address of local variable or temporary
+                 f:\yiheng\mmitss\el camino network simulation\bsm_distributor\bsm_listener\linkedlist.h(172) : while compiling class template member function 'LinkedList<T> &LinkedList<T>::operator =(LinkedList<T> &)'
+                 with
+                 [
+                     T=IDMSGcnt
+                 ]
+                 f:\yiheng\mmitss\el camino network simulation\bsm_distributor\bsm_listener\listhandle.h(95) : see reference to function template instantiation 'LinkedList<T> &LinkedList<T>::operator =(LinkedList<T> &)' being compiled
+                 with
+                 [
+                     T=IDMSGcnt
+                 ]
+                 f:\yiheng\mmitss\el camino network simulation\bsm_distributor\bsm_listener\listhandle.h(29) : see reference to class template instantiation 'LinkedList<T>' being compiled
+                 with
+                 [
+                     T=IDMSGcnt
+                 ]
+     1>f:\yiheng\mmitss\el camino network simulation\bsm_distributor\bsm_listener\listhandle.h(52): warning C4715: 'UpdateReqList' : not all control paths return a value
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\Yiheng\MMITSS\El Camino Network Simulation\BSM_Distributor\Debug\BSM_Listener.exe" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"F:\Yiheng\MMITSS\El Camino Network Simulation\BSM_Distributor\Debug\BSM_Listener.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\Yiheng\MMITSS\El Camino Network Simulation\BSM_Distributor\Debug\BSM_Listener.lib" /MACHINE:X86 /SAFESEH Debug\AccelerationSet4Way.obj
+         Debug\BasicVehicle.obj
+         Debug\Brakes.obj
+         Debug\BSM_Listener.obj
+         Debug\GeoCoord.obj
+         Debug\NMAP.obj
+         Debug\PositionLocal3D.obj
+         Debug\stdafx.obj
+         BSM_Listener.vcxproj -> F:\Yiheng\MMITSS\El Camino Network Simulation\BSM_Distributor\Debug\BSM_Listener.exe
+     1>Done Building Project "F:\Yiheng\MMITSS\El Camino Network Simulation\BSM_Distributor\BSM_Listener\BSM_Listener.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.38

@@ -1,0 +1,8 @@
+Phase_Num 6
+Phase_Seq 1 2 3 4 5 6 0 0
+Gmin	5	5	5	5	5	5	0	0
+Yellow	4	4	3	3	3	4	0	0
+Red	1	1	1	1	1	1	0	0
+Gmax	30	35	30	30	30	35	0	0
+PedWalk	0	6	4	4	0	6	0	0
+PedClr	0	10	21	20	0	11	0	0
